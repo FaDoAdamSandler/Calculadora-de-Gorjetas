@@ -1,0 +1,49 @@
+@import "./base.css";
+
+.calc{
+  border: 3px solid #3f3dad;
+  padding: 30px;
+  max-width: 830px;
+  display: block;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+.valores-forms {
+  display: grid;
+  margin-top: 17px;
+}
+input, select{
+  height: 30px;
+  padding-left: 10px;
+}
+strong {
+  text-decoration: underline solid #3f3dad;
+}
+span{
+  margin-left: 5px;
+}
+label{
+  font-size: 1.1em;
+}
+.resultado {
+  background-color: #3f3dad;
+  display: flex;
+  padding: 35px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.resultado span {
+  font-size: 2em;
+}
